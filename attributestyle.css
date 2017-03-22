@@ -1,0 +1,55 @@
+h1 span{
+	margin-left:200px;
+	border-style: double;
+	border-color: black;
+	padding: 5px;
+	
+}
+#description {
+	float: left;
+	margin-left:100px;
+	width: 500px;
+	word-wrap: break-word;
+}
+#pic {
+	float: right;
+	margin-right: 5%;
+}
+
+#top {
+	margin: 50px;
+	padding: 5px;
+	background-color: rgba(225,225,225,0.9); 
+	overflow: hidden; 
+	border-style: inset;
+}
+#hh {
+	font-size:20px;
+}
+#title {
+	font-family: 'Sofia';
+	font-size: 30px;
+	text-decoration: underline;
+}
+#attributes {
+	align: center;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	padding: 10px;
+	background-color: rgba(221,184,140,0.9);
+}
+#attributes tr td {
+	padding-bottom: 10px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	
+	
+}
+#info a{
+	font-size:20px;
+	text-decoration: underline;
+	color: #9E4FA4;
+}
+#info a:hover {
+	color: white;
+}
