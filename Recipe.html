@@ -5,76 +5,25 @@
 		<title>Course</title>
 		
 		<link rel="shortcut icon" href="images/Logo.jpg">
-		<style type="text/css">
-			@import url('https://fonts.googleapis.com/css?family=Sofia');  
-			body {
-				background: url(images/Strawberries.jpg);
-				background-size: 1350px 800px;
-			}
-			div.toplogo img { 
-				display: block;
-				margin: auto;
-				height: 150px;
-				width: 150px;
-			}
-			h2 {
-				margin-top: 100px;
-				text-align: center;
-				color: black;
-				font-family: 'Sofia';
-				font-size: 50px;	
-				text-shadow: 4px 4px 8px white;
-			
-			}
-			
-			ul#nav {
-				list-style-type: none;	
-				margin: 10px;
-				padding: 0px;
-				overflow: hidden:
-				
-			}
-			
-			ul#nav li {
-				font-family: 'Sofia';
-				font-size: 20px;
-				float: left;
-				border-bottom: 1px solid black;
-				border-top: 1px solid black;
-			}
-		
-			ul#nav li a {
-				display: block;
-				color: black;
-				padding: 12px 99px;
-				
-			}
-			ul#nav li a:link {color:black;         
-		    text-decoration:none;
-			}
-			ul#nav li a:visited {color: black;
-			}
-			ul#nav li a:hover {
-	          color:white;  
-			}
-			
-			
-		</style>
+		<link rel="stylesheet" type="text/css" href="modelstyle.css">
+		<link rel="stylesheet" type="text/css" href="navigationbarstyle.css">
 	</head>
 	<body>
 		<div class="toplogo">
 			<img src="images/Logo.png" alt="Logo">
 		</div>
-		<ul id="nav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="Cuisine.html">Cuisine</a></li>
-			<li><a href="Recipe.html">Recipe</a></li>
-			<li><a href="Ingredients.html">Ingredients</a></li>
-			<li><a href="About.html">About</a></li>
-		</ul>
+		<table id="nav", width="100%">
+			<tr>
+				<td align="center"> <a href="index.html">Home</a> </td>
+				<td align="center"> <a href="Cuisine.html">Cuisine</a> </td>
+				<td align="center"> <a href="Recipe.html">Recipe</a> </td>
+				<td align="center"> <a href="Ingredients.html">Ingredients</a> </td>
+				<td align="center"> <a href="About.html">About</a> </td>
+			</tr>
+		</table>
 		
 	</body>
-	<table border="2">
+	<table id="model", border="2", align="center">
 		<tr>
 			<th> Recipe </th>
 			<th> Time </th>
@@ -83,25 +32,25 @@
 			<th> Calories </th>
 		</tr>
 		<tr>
-			<td> Miso Soup </td>
-			<td> 15 Min </td>
-			<td> Japanese </td>
-			<td> Green Chard, Green Onion, Tofu, Miso, Nori </td>
-			<td> 88 Calories/bowl </td>
+			<td align="center"> <a href="Recipe_1.html">Miso Soup</a> </td>
+			<td align="center"> 15 Min </td>
+			<td align="center"> Japanese </td>
+			<td align="center"> Green Chard, Green Onion, Tofu, Miso, Nori </td>
+			<td align="center"> 88 Calories/bowl </td>
 		</tr>
 		<tr>
-			<td> Indian Curry </td>
-			<td> 1 hour </td>
-			<td> Indian </td>
-			<td> Chicken, Onion, Garlic, Curry Powder, Cumin, Turmeric, Tomatoes, Yogurt, Masala </td>
-			<td> ~300 Calories/250g </td>
+			<td align="center"> <a href="Recipe_2.html">Indian Curry</a> </td>
+			<td align="center"> 1 hour </td>
+			<td align="center"> Indian </td>
+			<td align="center"> Chicken, Onion, Garlic, Curry Powder, Cumin, Turmeric, Tomatoes, Yogurt, Masala </td>
+			<td align="center"> ~300 Calories/250g </td>
 		</tr>
 		<tr>
-			<td> Lemon Butter Scallops </td>
-			<td> 15 min </td>
-			<td> French </td>
-			<td> Butter, Lemon, Scallops, Garlic, Parsley, Pepper </td>
-			<td> 190 cal/serving </td>
+			<td align="center"> <a href="Recipe_3.html">Lemon Butter Scallops</a> </td>
+			<td align="center"> 15 min </td>
+			<td align="center"> French </td>
+			<td align="center"> Butter, Lemon, Scallops, Garlic, Parsley, Pepper </td>
+			<td align="center"> 190 cal/serving </td>
 		</tr>
 	</table>
 	

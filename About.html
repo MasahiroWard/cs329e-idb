@@ -5,56 +5,16 @@
 		<title>About</title>
 		
 		<link rel="shortcut icon" href="images/Logo.jpg">
+		<link rel="stylesheet" type="text/css" href="navigationbarstyle.css">
 		<style type="text/css">
 			@import url('https://fonts.googleapis.com/css?family=Sofia');  
-			body {
-				background: url(images/Strawberries.jpg);
-				background-size: 1350px 800px;
-			}
-			div.toplogo img { 
-				display: block;
-				margin: auto;
-				height: 150px;
-				width: 150px;
-			}
-			
-			ul#nav {
-				list-style-type: none;	
-				margin: 10px;
-				padding: 0px;
-				overflow: hidden:
-				
-			}
-			
-			ul#nav li {
-				font-family: 'Sofia';
-				font-size: 20px;
-				float: left;
-				border-bottom: 1px solid black;
-				border-top: 1px solid black;
-			}
-		
-			ul#nav li a {
-				display: block;
-				color: black;
-				padding: 12px 99px;
-				
-			}
-			ul#nav li a:link {color:black;         
-		    text-decoration:none;
-			}
-			ul#nav li a:visited {color: black;
-			}
-			ul#nav li a:hover {
-	          color:white;  
-			}
 			h2 {
-				margin-top: 100px;
+				margin-top: 30px;
 				text-align: center;
 				color: black;
 				font-family: 'Sofia';
 				font-size: 50px;	
-				text-shadow: 4px 4px 8px white;
+				text-shadow: 2px 2px 8px white;
 			
 			}
 			#team-pic {
@@ -94,15 +54,15 @@
 				overflow: hidden:
 					
 			}
-			
 		
 			#d-carol {
 				font-family: 'Sofia';
-				font-size: 20px;
-				text-shadow: 4px 4px 8px white;
+				font-size: 15px;
+				text-shadow: 2px 2px 8px white;
 				position:absolute;
 				top:550px;
-				left: 350px;
+				margin-left: 350px;
+				left: auto;
 				border-width: 10px;
 				table-layout: fixed;
 				width: 280px;
@@ -110,44 +70,48 @@
 			
 			#d-kyle {
 				font-family: 'Sofia';
-				font-size: 20px;
-				text-shadow: 4px 4px 8px white;
+				font-size: 15px;
+				text-shadow: 2px 2px 8px white;
 				position:absolute;
 				top:550px;
-				left: 1005px;
+				margin-left: 1000px;
+				left: auto;
 				border-width: 10px;
 				table-layout: fixed;
 				width: 280px;
 			}
 			#d-masa {
 				font-family: 'Sofia';
-				font-size: 20px;
-				text-shadow: 4px 4px 8px white;
+				font-size: 15px;
+				text-shadow: 2px 2px 8px white;
 				position:absolute;
 				top:1005px;
-				left: 350px;
+				margin-left: 350px;
+				left: auto;
 				border-width: 10px;
 				table-layout: fixed;
 				width: 280px;
 			}
 			#d-yiran {
 				font-family: 'Sofia';
-				font-size: 20px;
-				text-shadow: 4px 4px 8px white;
+				font-size: 15px;
+				text-shadow: 2px 2px 8px white;
 				position:absolute;
 				top:1005px;
-				left: 1005px;
+				margin-left: 1000px;
+				left: auto;
 				border-width: 10px;
 				table-layout: fixed;
 				width: 280px;
 			}
 			#d-aldo {
 				font-family: 'Sofia';
-				font-size: 20px;
-				text-shadow: 4px 4px 8px white;
+				font-size: 15px;
+				text-shadow: 2px 2px 8px white;
 				position:absolute;
-				top:1480px;
-				left: 350px;
+				top:1500px;
+				margin-left: 350px;
+				left: auto;
 				border-width: 10px;
 				table-layout: fixed;
 				width: 280px;
@@ -155,22 +119,24 @@
 			
 			#Stats {
 				font-family: 'Sofia';
-				font-size: 20px;
-				text-shadow: 4px 4px 8px white;
+				font-size: 15px;
+				text-shadow: 2px 2px 8px white;
 				position:absolute;
 				top:1550px;
-				left: 860px;
+				margin-left: 850px;
+				left: auto;
 				border-width: 10px;
 				table-layout: fixed;
 				width: 400px;				
 			}
 			#Tools {
 				font-family: 'Sofia';
-				font-size: 20px;
-				text-shadow: 4px 4px 8px white;
+				font-size: 15px;
+				text-shadow: 2px 2px 8px white;
 				position:absolute;
 				top:1380px;
-				left: 770px;
+				margin-left: 770px;
+				left: auto;
 				border-width: 10px;
 				table-layout: fixed;
 				width: 400px;				
@@ -179,138 +145,146 @@
 			#d-carol td, #d-kyle td, #d-masa td, #d-yiran td, #d-aldo td, #Stats td, #Tools td{
 				word-wrap:break-word;
 			}
+			#board {
+				display: table;
+				margin-left: auto;
+				margin-right: auto;
+			}
 		</style>
 	</head>
 	<body>
 		<div class="toplogo">
 			<img src="images/Logo.png" alt="Logo">
 		</div>
-		<ul id="nav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="Cuisine.html">Cuisine</a></li>
-			<li><a href="Recipe.html">Recipe</a></li>
-			<li><a href="Ingredients.html">Ingredients</a></li>
-			<li><a href="About.html">About</a></li>
-		</ul>
+		<table id="nav", width="100%">
+			<tr>
+				<td align="center"> <a href="index.html">Home</a> </td>
+				<td align="center"> <a href="Cuisine.html">Cuisine</a> </td>
+				<td align="center"> <a href="Recipe.html">Recipe</a> </td>
+				<td align="center"> <a href="Ingredients.html">Ingredients</a> </td>
+				<td align="center"> <a href="About.html">About</a> </td>
+			</tr>
+		</table>
 		
 		<h2>Meet our Team!</h2>
+		<div id="board">
+			<table id="team-pic">
+				<tr id="teamrow1">
+				
+					<td><img src="images/Carol-pic.png" alt="Carol"></td>
+					<td><img src="images/Kyle-pic.png" alt="Kyle"></td>
+				</tr>
 			
-		<table id="team-pic">
-			<tr id="teamrow1">
-			
-				<td><img src="images/Carol-pic.png" alt="Carol"></td>
-				<td><img src="images/Kyle-pic.png" alt="Kyle"></td>
-			</tr>
-		
-			<tr id="teamrow2">
-			
-				<td><img src="images/Masa-pic.png" alt="Masahiro"></td>
-				<td><img src="images/Yiran-pic.png" alt="Yiran"></td>
-			</tr>
-			
-			<tr id="teamrow3">
-			
-				<td><img src="images/Aldo-pic.png" alt="Aldo"></td>
-				<td><img src="images/Stats-tools.png" alt="Stats and Tools"></td>
-			</tr>
-		</table>
-		<table id="d-carol">
-			<tr>
-				<td> Major: Chemical Engineering</td>
-			</tr>
-			<tr>
-				<td>Classification: Senior </td>
-			</tr>
-			<tr>
-				<td>Interesting Fact: I like pig. </td>
-			</tr>
-			<tr>
-				<td>Major Responsibilities: </td>
-			</tr>
-		</table>
-		<table id="d-kyle">
-			<tr>
-				<td> Major: Chemical Engineering</td>
-			</tr>
-			<tr>
-				<td>Classification: Senior </td>
-			</tr>
-			<tr>
-				<td>Interesting Fact: </td>
-			</tr>
-			<tr>
-				<td>Major Responsibilities: </td>
-			</tr>
-		</table>
-		<table id="d-masa">
-			<tr>
-				<td> Major: Chemical Engineering</td>
-			</tr>
-			<tr>
-				<td>Classification: Junior </td>
-			</tr>
-			<tr>
-				<td>Interesting Fact: </td>
-			</tr>
-			<tr>
-				<td>Major Responsibilities: </td>
-			</tr>
-		</table>
-		<table id="d-yiran">
-			<tr>
-				<td> Major: Math & Finance </td>
-			</tr>
-			<tr>
-				<td>Classification: Senior </td>
-			</tr>
-			<tr>
-				<td>Interesting Fact: </td>
-			</tr>
-			<tr>
-				<td>Major Responsibilities: </td>
-			</tr>
-		</table>
-		<table id="d-aldo">
-			<tr>
-				<td> Major: Math </td>
-			</tr>
-			<tr>
-				<td>Classification: Senior </td>
-			</tr>
-			<tr>
-				<td>Interesting Fact: </td>
-			</tr>
-			<tr>
-				<td>Major Responsibilities: </td>
-			</tr>
-		</table>
-		<table id="Stats">
-			<tr>
-				<th>Stats</th>
-			</tr>
-			<tr>
-				<td>Total Number of Commits: </td>
-			</tr>
-			<tr>
-				<td>Total Number of Issues: </td>
-			</tr>
-			<tr>
-				<td>GitHub Issue Tracker</td>
-			</tr>
-			<tr>
-				<td>GitHub Repo </td>
-			</tr>
-			<tr>
-				<td>GitHub Wiki Link </td>
-			</tr>
-		</table>
-		<table id="Tools">
-			<tr>
-				<th>Tools</th>
-			</tr>
-			<tr>
-				<td>Tools Used: </td>
-			</tr>
-		</table>
+				<tr id="teamrow2">
+				
+					<td><img src="images/Masa-pic.png" alt="Masahiro"></td>
+					<td><img src="images/Yiran-pic.png" alt="Yiran"></td>
+				</tr>
+				
+				<tr id="teamrow3">
+				
+					<td><img src="images/Aldo-pic.png" alt="Aldo"></td>
+					<td><img src="images/Stats-tools.png" alt="Stats and Tools"></td>
+				</tr>
+			</table>
+			<table id="d-carol">
+				<tr>
+					<td> <strong><strong>Major: </strong> </strong> Chemical Engineering</td>
+				</tr>
+				<tr>
+					<td><strong>Classification: </strong> Senior </td>
+				</tr>
+				<tr>
+					<td><strong>Interesting Fact: </strong> When I was in 5th grade, I won the spelling bee for the nation of Taiwan by spelling the word "antidisestablishmentarianism" </td>
+				</tr>
+				<tr>
+					<td><strong>Major Responsibilities: </strong> </td>
+				</tr>
+			</table>
+			<table id="d-kyle">
+				<tr>
+					<td> <strong>Major: </strong> Chemical Engineering</td>
+				</tr>
+				<tr>
+					<td><strong>Classification: </strong> Senior </td>
+				</tr>
+				<tr>
+					<td><strong>Interesting Fact: </strong> I love lamps.</td>
+				</tr>
+				<tr>
+					<td><strong>Major Responsibilities: </strong> </td>
+				</tr>
+			</table>
+			<table id="d-masa">
+				<tr>
+					<td> <strong>Major: </strong> Chemical Engineering</td>
+				</tr>
+				<tr>
+					<td><strong>Classification: </strong> Junior </td>
+				</tr>
+				<tr>
+					<td><strong>Interesting Fact: </strong> The longest amount of time that I can stand on my head underwater is 5 minutes and 32 seconds. It's in the Guinness Book of World Records. </td>
+				</tr>
+				<tr>
+					<td><strong>Major Responsibilities: </strong> </td>
+				</tr>
+			</table>
+			<table id="d-yiran">
+				<tr>
+					<td> <strong>Major: </strong> Mathematics & Finance </td>
+				</tr>
+				<tr>
+					<td><strong>Classification: </strong> Senior </td>
+				</tr>
+				<tr>
+					<td><strong>Interesting Fact: </strong> Yiran runs a small bootlegging operation in her spare time. She still does not know that alcohol is perfectly legal in the United States.</td>
+				</tr>
+				<tr>
+					<td><strong>Major Responsibilities: </strong> </td>
+				</tr>
+			</table>
+			<table id="d-aldo">
+				<tr>
+					<td> <strong>Major: </strong> Mathematics </td>
+				</tr>
+				<tr>
+					<td><strong>Classification: </strong> Senior </td>
+				</tr>
+				<tr>
+					<td><strong>Interesting Fact: </strong> My favorite conspiracy theory involves crab-people, Donald Trump, and the Real Slim Shady. Ask me about it.</td>
+				</tr>
+				<tr>
+					<td><strong>Major Responsibilities: </strong> </td>
+				</tr>
+			</table>
+			<table id="Stats">
+				<tr>
+					<th>Stats</th>
+				</tr>
+				<tr>
+					<td>Total Number of Commits: </td>
+				</tr>
+				<tr>
+					<td>Total Number of Issues: </td>
+				</tr>
+				<tr>
+					<td>GitHub Issue Tracker</td>
+				</tr>
+				<tr>
+					<td>GitHub Repo </td>
+				</tr>
+				<tr>
+					<td>GitHub Wiki Link </td>
+				</tr>
+			</table>
+			<table id="Tools">
+				<tr>
+					<th>Tools</th>
+				</tr>
+				<tr>
+					<td>Tools Used: </td>
+				</tr>
+			</table>
+		</div>
 	</body>
 </html>
