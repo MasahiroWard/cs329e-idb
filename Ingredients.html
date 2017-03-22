@@ -27,7 +27,7 @@
 			
 			}
 			
-			ul#nav {
+			ul {
 				list-style-type: none;	
 				margin: 10px;
 				padding: 0px;
@@ -35,7 +35,7 @@
 				
 			}
 			
-			ul#nav li {
+			li {
 				font-family: 'Sofia';
 				font-size: 20px;
 				float: left;
@@ -43,19 +43,36 @@
 				border-top: 1px solid black;
 			}
 		
-			ul#nav li a {
+			li a {
 				display: block;
 				color: black;
 				padding: 12px 99px;
 				
 			}
-			ul#nav li a:link {color:black;         
+			li a:link, table a:link {color:black;         
 		    text-decoration:none;
 			}
-			ul#nav li a:visited {color: black;
+			li a:visited, table a:visited {color: black;
 			}
-			ul#nav li a:hover {
+			li a:hover, table a:hover {
 	          color:white;  
+			}
+			table a {
+				color:black;
+				
+			}
+			table {
+				position:relative;
+				top: 50px;
+				margin-top: 50px;
+				width:1000px;
+				font-family: 'Sofia';
+				font-size: 20px;	
+				background-color: rgba(225,225,225,0.7)
+			}
+			
+			table th {
+				font-size: 30px;
 			}
 			
 			
@@ -73,45 +90,36 @@
 			<li><a href="About.html">About</a></li>
 		</ul>
 		
+		<table border="2", align="center">
+			<tr>
+				<th> Ingredient </th>
+				<th> Cuisine </th>
+				<th> Dishes </th>
+				<th> Price </th>
+				<th> Calories </th>
+			</tr>
+			<tr>
+				<td> <a href="Ingredient_Whiterice.html"> White Rice</a> </td>
+				<td> Japanese </td>
+				<td> Sushi </td>
+				<td> $0.52/lb </td>
+				<td> 206 Calories/cup </td>
+			</tr>
+			<tr>
+				<td> <a href="Ingredient_Turmeric.html"> Turmeric</a> </td>
+				<td> Indian </td>
+				<td> Curry, Samosa </td>
+				<td> $8.99/lb </td>
+				<td> 24 Calories/tbsp </td>
+			</tr>
+			<tr>
+				<td> <a href="Ingredient_Wine.html"> Wine</a> </td>
+				<td> French </td>
+				<td> Scallops </td>
+				<td> Variable </td>
+				<td> 123 Calories/5 oz </td>
+			</tr>
+		</table>
 	</body>
-	
-	<!-- The Cuisine Page--!>
-<!-->
-<html>
-	<h1>
-		Cuisines
-	</h1>
-	<table border="2">
-		<tr>
-			<th> Ingredient </th>
-			<th> Cuisine </th>
-			<th> Dishes </th>
-			<th> Price </th>
-			<th> Calories </th>
-		</tr>
-		<tr>
-			<td> White Rice </td>
-			<td> Japanese </td>
-			<td> Sushi </td>
-			<td> $0.52/lb </td>
-			<td> 206 Calories/cup </td>
-		</tr>
-		<tr>
-			<td> Tumeric </td>
-			<td> Indian </td>
-			<td> Curry, Samosa </td>
-			<td> $8.99/lb </td>
-			<td> 24 Calories/tbsp </td>
-		</tr>
-		<tr>
-			<td> Wine </td>
-			<td> French </td>
-			<td> Scallops </td>
-			<td> Variable </td>
-			<td> 123 Calories/5 oz </td>
-		</tr>
-	</table>
-</html>
-	
-	
+
 </html>
