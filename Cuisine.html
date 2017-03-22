@@ -1,40 +1,112 @@
 <!-- The Cuisine Page--!>
 <!-->
 <html>
-	<h1>
-		Cuisines
-	</h1>
-	<p>
-		Stuff n things
-	</p>
-	<table border="2">
-		<tr>
-			<th> Location </th>
-			<th> Common Ingredients </th>
-			<th> Techniques </th>
-			<th> Dishes </th>
-			<th> Climate </th>
-		</tr>
-		<tr>
-			<td> Japan </td>
-			<td> White Rice, Soy Sauce, Miso, Bonito Flakes, Seaweed, Mirin </td>
-			<td> Stir-fry, Steam, Pickling, Deep-fried </td>
-			<td> Miso Soup, Sushi, Sukiyaki, Tempura </td>
-			<td> Temperate </td>
-		</tr>
-		<tr>
-			<td> India </td>
-			<td> Basmati rice, Chickpea, Chapati Flour, Coconut, Yogurt, Tumeric </td>
-			<td> Steam, Stew, Temper, Smoke Seasoning </td>
-			<td> Dal, Chutney, Lentils, Dosa, Samosa </td>
-			<td> Various Microclimates </td>
-		</tr>
-		<tr>
-			<td> French </td>
-			<td> Bread, Butter, Cheese, Olive oil, Wine, Tarragon </td>
-			<td> Braising, Flambeing, Grill, Poach, Saute </td>
-			<td> Croque-Monsieur, Soupe a l'oignon, Cheese Souffle, Pot-au-feu </td>
-			<td> Temperate Mediterranean </td>
-		</tr>
-	</table>
+	<head>
+		<title>Home</title>
+		
+		<link rel="shortcut icon" href="images/Logo.jpg">
+		<style type="text/css">
+			@import url('https://fonts.googleapis.com/css?family=Sofia');  
+			body {
+				background: url(images/Strawberries.jpg) no-repeat;
+				background-size: 1350px 800px;
+			}
+			div.toplogo img { 
+				display: block;
+				margin: auto;
+				height: 150px;
+				width: 150px;
+			}
+			
+			ul {
+				list-style-type: none;	
+				margin: 10px;
+				padding: 0px;
+				overflow: hidden:
+				
+			}
+			
+			li {
+				font-family: 'Sofia';
+				font-size: 20px;
+				float: left;
+				border-bottom: 1px solid black;
+				border-top: 1px solid black;
+			}
+		
+			li a {
+				display: block;
+				color: black;
+				padding: 12px 99px;
+				
+			}
+			li a:link, table a:link {color:black;         
+		    text-decoration:none;
+			}
+			li a:visited, table a:visited {color: black;
+			}
+			li a:hover, table a:hover {
+	          color:white;  
+			}
+			table a {
+				color:black;
+				
+			}
+			table {
+				position:relative;
+				top: 50px;
+				margin-top: 50px;
+				width:1000px;
+				font-family: 'Sofia';
+				font-size: 20px;	
+			}
+			
+			table th {
+				font-size: 30px;
+			}
+	
+		</style>
+	</head>
+	<body>
+		<div class="toplogo">
+			<img src="images/Logo.png" alt="Logo">
+		</div>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Cuisine.html">Cuisine</a></li>
+			<li><a href="Recipe.html">Recipe</a></li>
+			<li><a href="Ingredients.html">Ingredients</a></li>
+			<li><a href="About.html">About</a></li>
+		</ul>
+		<table border="2", align="center">
+			<tr>
+				<th> Cuisine </th>
+				<th> Common Ingredients </th>
+				<th> Techniques </th>
+				<th> Dishes </th>
+				<th> Climate </th>
+			</tr>
+			<tr>
+				<td> <a href="Cuisine_Japanese.html"> Japanese</a> </td>
+				<td> White Rice, Soy Sauce, Miso, Bonito Flakes, Seaweed, Mirin </td>
+				<td> Stir-fry, Steam, Pickling, Deep-fried </td>
+				<td> Miso Soup, Sushi, Sukiyaki, Tempura </td>
+				<td> Temperate </td>
+			</tr>
+			<tr>
+				<td> <a href="Cuisine_Indian.html"> Indian</a> </td>
+				<td> Basmati rice, Chickpea, Chapati Flour, Coconut, Yogurt, Tumeric </td>
+				<td> Steam, Stew, Temper, Smoke Seasoning </td>
+				<td> Dal, Chutney, Lentils, Dosa, Samosa </td>
+				<td> Various Microclimates </td>
+			</tr>
+			<tr>
+				<td><a href="Cuisine_French.html"> French</a></td>
+				<td> Bread, Butter, Cheese, Olive oil, Wine, Tarragon </td>
+				<td> Braising, Flambeing, Grill, Poach, Saute </td>
+				<td> Croque-Monsieur, Soupe a l'oignon, Cheese Souffle, Pot-au-feu </td>
+				<td> Temperate Mediterranean </td>
+			</tr>
+		</table>
+	</body>	
 </html>
