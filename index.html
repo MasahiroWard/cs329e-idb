@@ -2,42 +2,53 @@
 <html>
 	<head>
 		<title>Home</title>
-		
+
 		<link rel="shortcut icon" href="images/Logo.jpg">
 		<link rel="stylesheet" type="text/css" href="navigationbarstyle.css">
+	  <link rel="stylesheet" type="text/css" href="modelstyle.css">
 		<style type="text/css">
-			
+
 			#front {
 				margin-top: 10px;
 				border-style: ridge;
 				border-color: #af793d;
 				border-width:15px;
 				background-color: #ddb88c;
+				background-size: contain;
 			}
 		</style>
+
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/history.js/1.8/bundled-uncompressed/html4+html5/dojo.history.js"></script>
+			<script src="/fade.js"></script>
+
 	</head>
 	<body>
 		<div id="headingimg">
 			<div class="toplogo">
 				<img src="images/Logo.png" alt="Logo">
 			</div>
-		
+
 			<table id="nav", width="100%">
 				<tr>
-					<td align="center"> <a href="index.html">Home</a> </td>
-					<td align="center"> <a href="Cuisine.html">Cuisine</a> </td>
-					<td align="center"> <a href="Recipe.html">Recipe</a> </td>
-					<td align="center"> <a href="Ingredients.html">Ingredients</a> </td>
+					<td align="center"> <a href="index.html" class="content_load">Home</a> </td>
+					<td align="center"> <a href="Cuisine.html" class="content_load">Cuisine</a> </td>
+					<td align="center"> <a href="Recipe.html" class="content_load">Recipe</a> </td>
+					<td align="center"> <a href="Ingredients.html" class="content_load">Ingredients</a> </td>
 					<td align="center"> <a href="About.html">About</a> </td>
 				</tr>
 			</table>
 		</div>
-		<table id="front", width="99%">
-			<tr>
-				<td align="center"> <img src="images/Splashimage.png" alt="Splash" height="auto" width="100%"> </td>
-				
-			</tr>
-		</table>
+
+		<div id="content">
+			<table id="front", width="99%">
+				<tr>
+					<td align="center"> <img src="images/Splashimage.png" alt="Splash" height="auto" width="100%"> </td>
+
+				</tr>
+			</table>
+		</div>
+
 
 	</body>
 </html>

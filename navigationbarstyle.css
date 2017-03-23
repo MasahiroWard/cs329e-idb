@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Sofia');  
+@import url('https://fonts.googleapis.com/css?family=Sofia');
 
 body {
 	background: url(images/backgroundimg.jpg);
-	background-size: 100% 100%;
+	background-size: cover;
 }
 
 #headingimg {
@@ -13,7 +13,7 @@ body {
 	overflow: hidden;
 }
 
-div.toplogo img { 
+div.toplogo img {
 	display: block;
 	margin: auto;
 	height: 150px;
@@ -22,29 +22,29 @@ div.toplogo img {
 
 
 
-a:link {color:black;         
+a:link {color:black;
 text-decoration:none;
 }
 a:visited {color: black;
 }
 a:hover {
-  color:white;  
+  color:white;
 }
 a {
 	color:black;
-	
+
 }
 table#nav {
 	font-weight: bold;
 	font-family: 'Sofia';
 	margin-top: 10px;
-	font-size: 25px;	
-	
+	font-size: 25px;
+
 }
 table#nav tr td {
 	padding-bottom: 5px;
 	padding-top: 5px;
-	
+
 	border-bottom: 3px double;
 	border-top: 3px double;
 }
