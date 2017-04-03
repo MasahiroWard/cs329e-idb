@@ -1,3 +1,15 @@
+commit 3d85e227af539081b372c117197c2a52c2a23bdf
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Thu Mar 23 19:55:57 2017 -0500
+
+    Added image to the about page
+
+commit a52dbdbd9ceda8bd7e1ce7957d7bdc4d471e8319
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Thu Mar 23 19:34:38 2017 -0500
+
+    Made log and finalized commits on about
+
 commit 6e00fc6b1b5ee7fea1b824b9a052015561e32255
 Author: Yiran Shen <shenyiran91@utexas.edu>
 Date:   Thu Mar 23 18:38:29 2017 -0500
