@@ -1,13 +1,29 @@
 <!-- The Course Page-->
-
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Recipe</title>
+<head>
+	<title>Recipe</title>
 
-		<link rel="shortcut icon" href="images/Logo.jpg">
-		<link rel="stylesheet" type="text/css" href="modelstyle.css">
-		<link rel="stylesheet" type="text/css" href="navigationbarstyle.css">
-	</head>
+	<link rel="shortcut icon" href="images/Logo.jpg">
+	<link rel="stylesheet" type="text/css" href="modelstyle.css">
+	<link rel="stylesheet" type="text/css" href="navigationbarstyle.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+	<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script>$(document).ready(function() {$('#model').DataTable({"bFilter": false, "bLengthChange": false, "pageLength" : 3});} );</script>
+	<style>.dataTables_wrapper { font-size: 20px }</style>
+
+</head>
 	<body>
 		<div id="headingimg">
 			<div class="toplogo">
@@ -16,10 +32,10 @@
 
 			<table id="nav", width="100%">
 				<tr>
-					<td align="center"> <a href="index.html" class="content_load">Home</a> </td>
-					<td align="center"> <a href="Cuisine.html" class="content_load">Cuisine</a> </td>
-					<td align="center"> <a href="Recipe.html" class="content_load">Recipe</a> </td>
-					<td align="center"> <a href="Ingredients.html" class="content_load">Ingredients</a> </td>
+					<td align="center"> <a href="index.html">Home</a> </td>
+					<td align="center"> <a href="Cuisine.html">Cuisine</a> </td>
+					<td align="center"> <a href="Recipe.html">Recipe</a> </td>
+					<td align="center"> <a href="Ingredients.html">Ingredients</a> </td>
 					<td align="center"> <a href="About.html">About</a> </td>
 				</tr>
 			</table>
@@ -27,8 +43,8 @@
 
 	</body>
 
-	<div id="content">
-	<table id="model", border="2", align="center">
+	<table id="model", class= "table table-bordered", data-toggle="table", border="2", align="center">
+		<thead>
 		<tr>
 			<th> Recipe </th>
 			<th> Time </th>
@@ -36,6 +52,8 @@
 			<th> Ingredients </th>
 			<th> Calories </th>
 		</tr>
+	</thead>
+	<tbody>
 		<tr>
 			<td align="center"> <a href="Recipe_sushi.html">Sushi</a> </td>
 			<td align="center"> 45 min </td>
@@ -78,6 +96,6 @@
 			<td align="center">  Eggplant, Salt, Olive Oil, Ground Beef, Black Pepper, Onion, Garlic, Ground Cinnamon, Ground Nutmeg, Fine Herbs, Dried Parsley, Tomato Sauce, Red Wine, Egg, Milk, Butter, Flour, White Pepper, Parmesan</td>
 			<td align="center">  567 Calories</td>
 		</tr>
+		</tbody>
 	</table>
-</div>
 </html>

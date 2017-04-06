@@ -1,5 +1,5 @@
 <!-- The About Page-->
-
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>About</title>
@@ -127,7 +127,7 @@
 				left: auto;
 				border-width: 10px;
 				table-layout: fixed;
-				width: 370px;				
+				width: 370px;
 			}
 			#Tools {
 				font-family: 'Sofia';
@@ -139,9 +139,9 @@
 				left: auto;
 				border-width: 10px;
 				table-layout: fixed;
-				width: 400px;				
+				width: 400px;
 			}
-			
+
 
 			#d-carol td, #d-kyle td, #d-masa td, #d-yiran td, #d-aldo td, #Stats td, #Tools td{
 				word-wrap:break-word;
@@ -151,7 +151,7 @@
 				margin-left: auto;
 				margin-right: auto;
 			}
-			
+
 			#Stats td{
 				text-align: center;
 				vertical-align: middle;
@@ -159,7 +159,7 @@
 			#Stats th {
 				font-size: 25px;
 			}
-			
+
 			#Tools td{
 				text-align: center;
 				vertical-align: middle;
@@ -168,10 +168,24 @@
 				font-size: 25px;
 			}
 			#links {
-				border-style: ridge;	
+				border-style: ridge;
 			}
-	
+
 		</style>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+		<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<script>$(document).ready(function() {$('#model').DataTable();} );</script>
 	</head>
 	<body>
 		<div id="headingimg">
@@ -190,7 +204,7 @@
 			</table>
 		</div>
 
-		<div id="content" class="board">
+		<div class="board">
 
 			<table id="team-pic">
 				<tr>
