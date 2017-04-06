@@ -1,0 +1,362 @@
+commit 9749d0b6548b4d13fd8a1e3cf1958152a88392fc
+Author: Carol <carolhuang0502@yahoo.com>
+Date:   Thu Apr 6 02:00:29 2017 -0500
+
+    Updated about page
+
+commit e300aa34246d7f5d4e6d2c4a19c8a96b22c5081f
+Author: Carol <carolhuang0502@yahoo.com>
+Date:   Thu Apr 6 01:59:11 2017 -0500
+
+    changed color for the instances so color is more apparent and visible
+
+commit 1276a386430755839bd55c63a20207fd3df31d06
+Author: Carol <carolhuang0502@yahoo.com>
+Date:   Thu Apr 6 01:24:50 2017 -0500
+
+    Updated about page with additional information
+
+commit 3aba1b7a3d22f1b629108ed8e04a57e220fccaee
+Author: Aldo Carranza <carranzagael@gmail.com>
+Date:   Wed Apr 5 20:57:34 2017 -0500
+
+    add table sorting and pagination features
+
+commit 61983ee3f6a956f8a9f074f6d167d587b6a33f3e
+Author: Carol <carolhuang0502@yahoo.com>
+Date:   Wed Apr 5 03:54:53 2017 -0500
+
+    Added additional instances to the recipes and updated each of their respective pages
+
+commit 459914feb53ad5254ad321c1b8081b8867266ebb
+Merge: 4a92774 029b3a3
+Author: Carol <carolhuang0502@yahoo.com>
+Date:   Wed Apr 5 03:34:59 2017 -0500
+
+    Merge branch 'dev'
+
+commit 029b3a36592b918a6511b97bd7b36f56e0a0aead
+Author: Carol <carolhuang0502@yahoo.com>
+Date:   Wed Apr 5 03:34:42 2017 -0500
+
+    Added additional instances to the ingredients and updated each of their respective pages
+
+commit 4a92774f37ba70560e673ba0e164906992086fa2
+Author: SageMasahiro <masahiro.ward@sageenvironmental.com>
+Date:   Tue Apr 4 17:27:27 2017 -0500
+
+    Created Greek, Chinese, Filipino pages
+
+commit 30a2d038d23ec2a83e4e6880f3425a1237695353
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Tue Apr 4 09:26:21 2017 -0500
+
+    Finished Chinese cuisine page
+
+commit 32bcda0b4a5386aed4524f07be3c068a7db34bdc
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Tue Apr 4 09:01:09 2017 -0500
+
+    Added attributes to Cuisine.html page
+
+commit a05658840d8037bd37e79263c792844a158c1f8d
+Author: Carol <carolhuang0502@yahoo.com>
+Date:   Sun Apr 2 22:28:04 2017 -0500
+
+    added the 5 attributes to the instances
+
+commit c0a5063c5327aab20acfe3f4cd15d4e35632b9f2
+Author: Carol <carolhuang0502@yahoo.com>
+Date:   Sun Apr 2 22:23:24 2017 -0500
+
+    Added additional instances for each of the pillars
+
+commit 3d85e227af539081b372c117197c2a52c2a23bdf
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Thu Mar 23 19:55:57 2017 -0500
+
+    Added image to the about page
+
+commit a52dbdbd9ceda8bd7e1ce7957d7bdc4d471e8319
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Thu Mar 23 19:34:38 2017 -0500
+
+    Made log and finalized commits on about
+
+commit 6e00fc6b1b5ee7fea1b824b9a052015561e32255
+Author: Yiran Shen <shenyiran91@utexas.edu>
+Date:   Thu Mar 23 18:38:29 2017 -0500
+
+    link
+
+commit 88e47846e1de2c1e18c821cbfe5ace4cbd2c020e
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Thu Mar 23 18:22:43 2017 -0500
+
+    Fixed Japanese cuisine text
+
+commit f8c4695c1e68a96bacd86c6579a633752afb4bc9
+Author: Yiran Shen <shenyiran91@utexas.edu>
+Date:   Thu Mar 23 18:09:10 2017 -0500
+
+    indian cuisine
+
+commit 2aca236734d1ff1072840872d2b11806be50c65c
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Thu Mar 23 17:43:35 2017 -0500
+
+    Formatting on about page
+
+commit 63a04e56eaf184b74b3980f162b9c945ba193a14
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Thu Mar 23 17:38:29 2017 -0500
+
+    Filled in blanks on the about page.  Still have a few stats to change (Number of commits, for example)
+
+commit 3fec11516c91ea23542529981f8d8563a74ef490
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Thu Mar 23 17:21:03 2017 -0500
+
+    Added citations.  Close #13
+
+commit ba546fdb1abc853787e07d958af47403ea3ac6e1
+Author: Aldo Carranza <carranzagael@gmail.com>
+Date:   Thu Mar 23 16:41:10 2017 -0500
+
+    implement fadeIn/fadeOut JS script on model pages
+
+commit c93622e112130b1b2878a03a4c82a2b8eef29900
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Thu Mar 23 12:13:31 2017 -0500
+
+    Fixed background so there was no white space
+
+commit 2199caa861dfb3a8bcc3495b5f24df97106fb911
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Thu Mar 23 00:11:09 2017 -0500
+
+    More formatting additions
+
+commit 84c7ddf558e9f9f46e58108cd69f2c104aff6c19
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Thu Mar 23 00:06:37 2017 -0500
+
+    Fixed formatting on about page
+
+commit d3ce903eb4532120ac3f42c5dc9449d2aed395dd
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Wed Mar 22 23:52:01 2017 -0500
+
+    Changed Splash page design and overall design
+
+commit 32728164a2341f54c6c7a43f3f3e67eba2b5d46a
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Wed Mar 22 15:15:50 2017 -0500
+
+    Hope all the links will work now
+
+commit c1ddbf7034bb8d4b0910c96348a152ed598565af
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Wed Mar 22 15:14:24 2017 -0500
+
+    Note to self, don't change file names because updating links is a pain
+
+commit b0634299a0c5f7d5b0b3edc70952b9c0211b37d6
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Wed Mar 22 15:12:31 2017 -0500
+
+    Fixed recipe page names and links to recipes
+
+commit 44fe321a4c6284c6eb4134bedb344f940c579e9b
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Wed Mar 22 15:10:29 2017 -0500
+
+    Fixed links from the 3 recipe pages to point to right cuisine
+
+commit e3ae241be7742208b7ee02bb0e568505f145ac22
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Wed Mar 22 15:07:43 2017 -0500
+
+    Made connections from recipes and ingredients to cuisine
+
+commit 00831c80afccd050a15096e181250c2c0fcb620f
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Wed Mar 22 12:14:59 2017 -0500
+
+    Changed logo art to match our group name
+
+commit 1067b9a414d6cafa22afb9572e9ca95af9538be6
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Wed Mar 22 03:11:46 2017 -0500
+
+    Added instances of ingredients pillar
+
+commit f5e6b9fcd9466d4a7526426f4d7353c3443dfc7a
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Wed Mar 22 02:44:09 2017 -0500
+
+    Changed recipe to sushi to incorporate white rice in ingredients
+
+commit c7ae0fde7b32d5ddf90b4f21715acea00cb3765d
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Wed Mar 22 02:38:31 2017 -0500
+
+    Added the 3 instances of recipe pillar
+
+commit b270be852d8da43abb1cfd9cfc7b02893793c11b
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Wed Mar 22 01:46:03 2017 -0500
+
+    Added to and formatted japanese cuisine page
+
+commit 994aee7cd7f5bea564864fbe02a12a8643780613
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Wed Mar 22 00:38:58 2017 -0500
+
+    Changed formatting of pages and navigation bar to adjust to screen size
+
+commit 47ef01b8e21fd0ab0fe9c31017b399249c2e2559
+Author: Yiran Shen <shenyiran91@utexas.edu>
+Date:   Tue Mar 21 21:25:40 2017 -0500
+
+    recipt1
+
+commit d331203726b2dfebb026e879bd6a0610e9794b77
+Author: Aldo Carranza <carranzagael@gmail.com>
+Date:   Tue Mar 21 21:22:07 2017 -0500
+
+    french cuisine
+
+commit c93e77eb4072aa888f3d8dd87b0661424c9ae8a9
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Tue Mar 21 21:17:06 2017 -0500
+
+    Added info to Recipe page
+
+commit 689d3ae04da9c338a37f15feee4009b1bd3f56d6
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Tue Mar 21 21:11:27 2017 -0500
+
+    Added the ingredients model
+
+commit 970a8a1018393ad18664458041df048a0defbe98
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Tue Mar 21 21:03:30 2017 -0500
+
+    Added Ingredients Information
+
+commit 2b7aad1547b66f361b1a1db1332aeb78ac18ae44
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Tue Mar 21 21:02:05 2017 -0500
+
+    formatted and linked the cuisine page
+
+commit 2fac68f16b065784aad2396fd49d65b3646ab836
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Tue Mar 21 20:27:45 2017 -0500
+
+    Added Cuisine.  Use this for dishes and ingredients
+
+commit 3b767c18997ec9870bca1c1fff5f600e71286f8e
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Tue Mar 21 20:24:35 2017 -0500
+
+    Changed name to recipe.html and references
+
+commit b705e328105d22f3b949abf68dcb988a66df3ce3
+Merge: 3fab196 6c309c3
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Tue Mar 21 20:04:57 2017 -0500
+
+    Merge branch 'master' of https://github.com/MasahiroWard/cs329e-idb
+
+commit 3fab196ce81131e4809a8580dcf58937b624f37a
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Tue Mar 21 20:04:09 2017 -0500
+
+    Changed the reference from Splash.html to index.html
+
+commit 6c309c3f342e38e49e8f1b4e45900597ee7b81b7
+Author: kyledalal <kyledalal@utexas.edu>
+Date:   Tue Mar 21 20:04:07 2017 -0500
+
+    Update index.html
+
+commit 27e5cb1609d49760a398cfae48f37ac90a72265e
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Tue Mar 21 20:02:00 2017 -0500
+
+    Added an index.html page lower case file name
+
+commit 19c2ae2db2cd291a7c645fe434515b3ada2279bd
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Tue Mar 21 20:01:35 2017 -0500
+
+    Removed index.html file
+
+commit 32d012684703e775efe3edadbe32cf12c72c8ba7
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Tue Mar 21 19:53:11 2017 -0500
+
+    Changed name of Splash.html to Index.html
+
+commit bdad3bbc00723f477b4a055e1852dd6795102982
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Tue Mar 21 19:25:38 2017 -0500
+
+    Added Masahiro Picture for about page
+
+commit c6f19a2271ac1721f0da15f0acc9cfce37571896
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Tue Mar 21 19:09:30 2017 -0500
+
+    Updated the About Page with the Stats and Tools section
+
+commit 3a006b0052321c676e9ddecd6719dc1b61919622
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Tue Mar 21 16:55:27 2017 -0500
+
+    Updated part of the about page
+
+commit 9e750b3e00bc5b83fdba273fd7dd68f137f94205
+Author: Carol-PC\Carol <carolhuang0502@yahoo.com>
+Date:   Mon Mar 20 22:58:22 2017 -0500
+
+    Created Splash page and changed one of the pillars
+
+commit 2a0809a4c78e00b3584b5b6e8d804a9c2626513a
+Merge: de6884a 4280619
+Author: kyle dalal <kyledalal@utexas.edu>
+Date:   Mon Mar 20 11:31:04 2017 -0500
+
+    Merge branch 'master' of https://github.com/MasahiroWard/cs329e-idb
+
+commit de6884af0d8bd55296154ad0bec419dc8efce369
+Author: kyle dalal <kyledalal@utexas.edu>
+Date:   Mon Mar 20 11:30:54 2017 -0500
+
+    Added redirect CNAME profile
+
+commit 42806195441cf099929b84c92139d8c8c002c47f
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Sun Mar 19 23:39:48 2017 -0500
+
+    Started making webpages for Cuisine.  Can use as template for other pages
+
+commit 722ba7d1dc914fd694fc4ec039eed65fc4ea1fe5
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Thu Mar 9 19:12:12 2017 -0600
+
+    Created HTML Files
+
+commit 239d5b885a094b89421d8306e127ef36ffd55da3
+Author: Masahiro Ward <mhward@utexas.edu>
+Date:   Thu Mar 9 19:03:53 2017 -0600
+
+    Added Concept Diagram
+
+commit 3199456492617b87a46ec311a15e03af4cfa1075
+Author: MasahiroWard <mhward@utexas.edu>
+Date:   Tue Mar 7 22:07:58 2017 -0600
+
+    Initial commit
