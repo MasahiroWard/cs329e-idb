@@ -1,0 +1,93 @@
+<!-- The Filipino Page-->
+
+<html>
+	<head>
+		<title>Filipino</title>
+			
+		<link rel="shortcut icon" href="static/images/Logo.jpg">
+		<link rel="stylesheet" type="text/css" href="static/css/navigationbarstyle.css">
+		<link rel="stylesheet" type="text/css" href="static/css/attributestyle.css">
+		<style type="text/css">
+			body {
+				background: url(/static/images/backgroundimg.jpg);
+				background-size: cover;
+			}
+
+			#headingimg {
+				background:url(/static/images/Strawberries.jpg) no-repeat;
+				background-size: 100% 100%;
+				padding-bottom: 10px;
+				padding-top: 10px;
+				overflow: hidden;
+		</style>
+	</head>
+	<body>
+		<div id="headingimg">
+			<div class="toplogo">
+				<img src="static/images/Logo.png" alt="Logo">
+			</div>
+
+			<table id="nav", width="100%">
+				<tr>
+					<td align="center"> <a href={{url_for('index')}}>Home</a> </td>
+					<td align="center"> <a href={{url_for('cuisine')}}>Cuisine</a> </td>
+					<td align="center"> <a href={{url_for('recipe')}}>Recipe</a> </td>
+					<td align="center"> <a href={{url_for('ingredients')}}>Ingredients</a> </td>
+					<td align="center"> <a href={{url_for('about')}}>About</a> </td>
+				</tr>
+			</table>
+		</div>
+		<div id="top">
+			<h1>
+				<span>Filipino Cuisine</span>
+			</h1>
+			
+			<p id="description">
+				Filipino cuisine has austronesian origins and mix many cultures together, including Indian, Japanese, Chinese, and American dishes.  Meals can be simple fried fish and rice to complicated paellas and cocidos.  One of the important aspects of Filipino cuisine is to pair sweet and salty foods together.		
+			</p>
+			<table id="pic">
+				<tr>
+					<td> <img src="static/images/chicken-adobo.jpg" height="150px" width="250px"></td>
+					<td> <img src="static/images/filipino_fish.jpg" height="150px" width="250px"></td>
+				</tr>
+					<td> <img src="static/images/chronicle_filipinofood_56.jpg" height="150px" width="250px"></td>
+					<td> <img src="static/images/filipino-noodle.jpg" height="150px" width="250px"></td>
+				<tr>
+					
+				</tr>
+			</table>
+		</div>
+		<table id="attributes", width="100%", align="center", cellspacing="80">
+			<tr>
+				<td align="center", width="33%">
+					<p id="title"><a href={{url_for('recipe')}}>Recipes</a></p>
+					<p><a href={{url_for('recipe_gca')}}>Grilled Chicken Adobo</a> </p>
+					<img src="static/images/recipe.png" height="150px" width="150px">
+				</td>
+				<td align="center", width="33%">
+					<p id="title"><a href={{url_for('ingredients')}}>Ingredients</a></p>
+					<p><a href={{url_for('ingredients_bl')}}>Bay Leaves</a> </p>		
+					<img src="static/images/ingredients.png" height="150px" width="150px">
+				</td>
+				<td align="center", width="33%">
+					<p id="title">Additional Information</p>
+					<p id="hh"><strong>Common Ingredients</strong></p>
+					<p>Rice, seafood, goat meat, Bay Leaves</p>
+					<p id="hh"><strong>Techniques</strong></p>
+					<p>boiling, grilling, roasting, steaming</p>
+					<p id="hh"><strong>Dishes</strong></p>
+					<p>Grilled Chicken Adobo, Pancit, Lumpia, Lechon, Sisig</p>
+					<p id="hh"><strong>Climate</strong></p>
+					<p>Tropical</p>
+					<p id="info"><a href="https://en.wikipedia.org/wiki/Philippine_cuisine"><strong>Click here for more information!</strong></a></p>
+				</td>
+					
+			</tr>
+		</table>		
+		<p>
+		<a href=http://www.cookingchanneltv.com/how-to/articles/pantry-Filipino-essentials>
+		Source: cookingchannel
+		</a>
+		</p>				
+	</body>
+</html>

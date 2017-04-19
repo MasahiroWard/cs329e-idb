@@ -1,0 +1,96 @@
+<!-- The Lemon Butter Scallops Page -->
+
+<html>
+	<head>
+		<title>Lemon Butter Scallops</title>
+		
+		<link rel="shortcut icon" href="static/images/Logo.jpg">
+		<link rel="stylesheet" type="text/css" href="static/css/navigationbarstyle.css">
+		<link rel="stylesheet" type="text/css" href="static/css/attributestyle.css">
+		<style type="text/css">
+			body {
+				background: url(/static/images/backgroundimg.jpg);
+				background-size: cover;
+			}
+
+			#headingimg {
+				background:url(/static/images/Strawberries.jpg) no-repeat;
+				background-size: 100% 100%;
+				padding-bottom: 10px;
+				padding-top: 10px;
+				overflow: hidden;
+		</style>
+	</head>
+	<body>
+		<div id="headingimg">
+			<div class="toplogo">
+				<img src="static/images/Logo.png" alt="Logo">
+			</div>
+
+			<table id="nav", width="100%">
+				<tr>
+					<td align="center"> <a href={{url_for('index')}}>Home</a> </td>
+					<td align="center"> <a href={{url_for('cuisine')}}>Cuisine</a> </td>
+					<td align="center"> <a href={{url_for('recipe')}}>Recipe</a> </td>
+					<td align="center"> <a href={{url_for('ingredients')}}>Ingredients</a> </td>
+					<td align="center"> <a href={{url_for('about')}}>About</a> </td>
+				</tr>
+			</table>
+		</div>
+		<div id="top">
+			<h1>
+				<span>Lemon Butter Scallops</span>
+			</h1>
+			
+			<p id="description">
+				1. Heat oil in heavy skillet over high heat. <br />
+				2. When oil begins to smoke add scallops.<br />
+				3. Sear each side for one minute or until each side is golden brown.<br />
+				4. Add 1/2 cup of wine and lower heat to medium.<br />
+				5. Simmer for 2 minutes.<br />
+				6. Remove scallops from pan.<br />
+				7. Add remaining wine and lemon juice,and garlic.<br />
+				8. Bring to a boil and reduce by half.<br />
+				9. Add butter, parsley and season with pepper.<br />
+				10. Place scallops on a plate and smother with sauce.<br />
+			</p>
+			<table id="pic">
+				<tr>
+					<td> <img src="http://img.sndimg.com/food/image/upload/h_420,w_560,c_fit/v1/img/recipes/55/68/0/pic764GyU.jpg" height="300px" width="450px"></td>
+				</tr>
+			</table>
+		</div>
+		<table id="attributes", width="100%", align="center", cellspacing="80">
+			<tr>
+				<td align="center", width="33%">
+					<p id="title"><a href={{url_for('cuisine')}}>Cuisine</a></p>
+					<p><a href={url_for('cuisine_french')}}>French</a> </p>	
+					<img src="static/images/cuisine.png" height="150px" width="150px">
+				</td>
+				<td align="center", width="33%">
+					<p id="title"><a href={{url_for('ingredients')}}>Ingredients</a></p>
+					<p><a href={url_for('ingredients_w')}}>Wine</a> </p>	
+					<img src="static/images/ingredients.png" height="150px" width="150px">
+				</td>
+				<td align="center", width="33%">
+					<p id="title">Additional Information	</p>
+					<p id="hh"><strong>Time</strong></p>
+					<p>15 min</p>
+					<p id="hh"><strong>Cuisine</strong></p>
+					<p>French</p>
+					<p id="hh"><strong>Ingredients</strong></p>
+					<p>Butter, Lemon, Scallops, Garlic, Parsley, Pepper, Wine, Olive Oil</p>
+					<p id="hh"><strong>Calories</strong></p>
+					<p>190 cal/serving</p>
+					<p id="info"><a href="http://www.food.com/recipe/savory-sea-scallops-in-white-wine-sauce-55680"><strong>Click here for more information!</strong></a></p>
+				</td>
+					
+			</tr>
+		</table>		
+		<p>
+		<a href=http://damndelicious.net/2015/03/14/lemon-butter-scallops/>
+		Source: DamnDelicious
+		</a>
+		</p>		
+	</body>
+</html>

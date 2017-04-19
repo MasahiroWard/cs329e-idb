@@ -1,0 +1,113 @@
+<!-- The Ingredients Page-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ingredients</title>
+
+	<link rel="shortcut icon" href="static/images/Logo.jpg">
+	<link rel="stylesheet" type="text/css" href="static/css/modelstyle.css">
+	<link rel="stylesheet" type="text/css" href="static/css/navigationbarstyle.css">
+	<style type="text/css">
+			body {
+				background: url(/static/images/backgroundimg.jpg);
+				background-size: cover;
+			}
+
+			#headingimg {
+				background:url(/static/images/Strawberries.jpg) no-repeat;
+				background-size: 100% 100%;
+				padding-bottom: 10px;
+				padding-top: 10px;
+				overflow: hidden;
+	</style>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+	<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script>$(document).ready(function() {$('#model').DataTable({"bFilter": false, "bLengthChange": false, "pageLength" : 3});} );</script>
+	<style>.dataTables_wrapper { font-size: 20px }</style>
+</head>
+	<body>
+		<div id="headingimg">
+			<div class="toplogo">
+				<img src="static/images/Logo.png" alt="Logo">
+			</div>
+
+			<table id="nav", width="100%">
+				<tr>
+					<td align="center"> <a href={{url_for('index')}}>Home</a> </td>
+					<td align="center"> <a href={{url_for('cuisine')}}>Cuisine</a> </td>
+					<td align="center"> <a href={{url_for('recipe')}}>Recipe</a> </td>
+					<td align="center"> <a href={{url_for('ingredients')}}>Ingredients</a> </td>
+					<td align="center"> <a href={{url_for('about')}}>About</a> </td>
+				</tr>
+			</table>
+		</div>
+
+		<table id="model", class= "table table-bordered", data-toggle="table", border="2", align="center">
+			<thead>
+			<tr>
+				<th> Ingredient </th>
+				<th> Cuisine </th>
+				<th> Dishes </th>
+				<th> Price </th>
+				<th> Calories </th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td align="center"> <a href={{url_for('ingredients_wr')}}> White Rice</a> </td>
+				<td align="center"> <a href={{url_for('cuisine_jap')}}> Japanese</a> </td>
+				<td align="center"> <a href={{url_for('recipe_s')}}> Sushi</a> </td>
+				<td align="center"> $0.52/lb </td>
+				<td align="center"> 206 Calories/cup </td>
+			</tr>
+			<tr>
+				<td align="center"> <a href={{url_for('ingredients_t')}}> Turmeric</a> </td>
+				<td align="center"> <a href={{url_for('cuisine_ind')}}>Indian</a> </td>
+				<td align="center"> <a href={{url_for('recipe_ic')}}>Curry</a>, Samosa </td>
+				<td align="center"> $8.99/lb </td>
+				<td align="center"> 24 Calories/tbsp </td>
+			</tr>
+			<tr>
+				<td align="center"> <a href={{url_for('ingredients_w')}}> Wine</a> </td>
+				<td align="center"> <a href={{url_for('cuisine_french')}}>French</a> </td>
+				<td align="center"> <a href={{url_for('recipe_lbs')}}>Scallops</a> </td>
+				<td align="center"> Variable </td>
+				<td align="center"> 123 Calories/5 oz </td>
+			</tr>
+			<tr>
+				<td align="center"> <a href={{url_for('ingredients_ss')}}> Soy Sauce</a></td>
+				<td align="center"> <a href={{url_for('cuisine_chi')}}> Chinese</a></td>
+				<td align="center"> <a href={{url_for('recipe_cps')}}>Chinese Pepper Steak</a>, Three Cup Chicken </td>
+				<td align="center">  $3.35/10 oz</td>
+				<td align="center">  9 cal/tsp</td>
+			</tr>
+			<tr>
+				<td align="center"> <a href={{url_for('ingredients_bl')}}> Bay Leaves</a></td>
+				<td align="center"> <a href={{url_for('cuisine_filipino')}}>  Filipino</a></td>
+				<td align="center"> <a href={{url_for('recipe_gca')}}> Grilled Chicken Adobo</a></td>
+				<td align="center">  $3.44/0.12 oz</td>
+				<td align="center">  6 cal/tsp</td>
+			</tr>
+			<tr>
+				<td align="center"> <a href={{url_for('ingredients_m')}}> Milk</a></td>
+				<td align="center"> <a href={{url_for('cuisine_greek')}}> Greek</a></td>
+				<td align="center"> <a href={{url_for('recipe_m')}}> Moussaka</a>, Galatopita</td>
+				<td align="center">  $4.49/carton</td>
+				<td align="center">  103 cal/cup</td>
+			</tr>
+		</tbody>
+		</table>
+	</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!-- The Chinese Page-->
+
+<html>
+	<head>
+		<title>Chinese</title>
+			
+		<link rel="shortcut icon" href="static/images/Logo.jpg">
+		<link rel="stylesheet" type="text/css" href="static/css/navigationbarstyle.css">
+		<link rel="stylesheet" type="text/css" href="static/css/attributestyle.css">
+		<style type="text/css">
+			body {
+				background: url(/static/images/backgroundimg.jpg);
+				background-size: cover;
+			}
+
+			#headingimg {
+				background:url(/static/images/Strawberries.jpg) no-repeat;
+				background-size: 100% 100%;
+				padding-bottom: 10px;
+				padding-top: 10px;
+				overflow: hidden;
+		</style>
+	</head>
+	<body>
+		<div id="headingimg">
+			<div class="toplogo">
+				<img src="static/images/Logo.png" alt="Logo">
+			</div>
+
+			<table id="nav", width="100%">
+				<tr>
+					<td align="center"> <a href={{url_for('index')}}>Home</a> </td>
+					<td align="center"> <a href={{url_for('cuisine')}}>Cuisine</a> </td>
+					<td align="center"> <a href={{url_for('recipe')}}>Recipe</a> </td>
+					<td align="center"> <a href={{url_for('ingredients')}}>Ingredients</a> </td>
+					<td align="center"> <a href={{url_for('about')}}>About</a> </td>
+				</tr>
+			</table>
+		</div>
+		<div id="top">
+			<h1>
+				<span>Chinese Cuisine</span>
+			</h1>
+			
+			<p id="description">
+				Chinese cuisine is extremely diverse due to the various climates that exist within the country.  In China, gastronomy is considered an high art and has been refined over its long history.  In the south, rice was the staple food while wheat took this role in the north.  Chinese meals will contain the four natures and five tastes.  The four natures are hot, warm, cool, and cold; the five tastes are pungent, sweet, bitter, sour, and salty.
+		
+			</p>
+			<table id="pic">
+				<tr>
+					<td> <img src="static/images/chinese-noodle-bowl.jpg" height="150px" width="250px"></td>
+					<td> <img src="static/images/chinese-pepper-steak.jpg" height="150px" width="250px"></td>
+				</tr>
+					<td> <img src="static/images/potstickers.jpg" height="150px" width="250px"></td>
+					<td> <img src="static/images/chinese-various-foods.jpg" height="150px" width="250px"></td>
+				<tr>
+					
+				</tr>
+			</table>
+		</div>
+		<table id="attributes", width="100%", align="center", cellspacing="80">
+			<tr>
+				<td align="center", width="33%">
+					<p id="title"><a href={{url_for('recipe')}}>Recipes</a></p>
+					<p><a href={{url_for('recipe_cps')}}>Chinese Pepper Steak</a> </p>
+					<img src="static/images/recipe.png" height="150px" width="150px">
+				</td>
+				<td align="center", width="33%">
+					<p id="title"><a href={{url_for('ingredients')}}>Ingredients</a></p>
+					<p><a href={{url_for('ingredients_ss')}}>Soy Sauce</a> </p>		
+					<img src="static/images/ingredients.png" height="150px" width="150px">
+				</td>
+				<td align="center", width="33%">
+					<p id="title">Additional Information</p>
+					<p id="hh"><strong>Common Ingredients</strong></p>
+					<p>Oyster Sauce, Soy Sauce, Rice Wine, Chili, Five-Spice Powder, Noodles, Rice, Peanut Oil</p>
+					<p id="hh"><strong>Techniques</strong></p>
+					<p>stir-fry, xing wei, steaming, red braise</p>
+					<p id="hh"><strong>Dishes</strong></p>
+					<p>Chinese Pepper Steak, Dumplings, Stir-fry, Eggrolls</p>
+					<p id="hh"><strong>Climate</strong></p>
+					<p>Ranges from Tropical to Subarctic</p>
+					<p id="info"><a href="https://en.wikipedia.org/wiki/Chinese_cuisine"><strong>Click here for more information!</strong></a></p>
+				</td>
+					
+			</tr>
+		</table>		
+		<p>
+		<a href=http://www.cookingchanneltv.com/how-to/articles/pantry-chinese-essentials>
+		Source: cookingchannel
+		</a>
+		</p>				
+	</body>
+</html>

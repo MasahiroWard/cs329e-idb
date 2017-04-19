@@ -1,0 +1,88 @@
+<!-- The Bay Leaves Page-->
+
+<html>
+	<head>
+		<title>Bay Leaves</title>
+		
+		<link rel="shortcut icon" href="static/images/Logo.jpg">
+		<link rel="stylesheet" type="text/css" href="static/css/navigationbarstyle.css">
+		<link rel="stylesheet" type="text/css" href="static/css/attributestyle.css">
+		<style type="text/css">
+			body {
+				background: url(/static/images/backgroundimg.jpg);
+				background-size: cover;
+			}
+
+			#headingimg {
+				background:url(/static/images/Strawberries.jpg) no-repeat;
+				background-size: 100% 100%;
+				padding-bottom: 10px;
+				padding-top: 10px;
+				overflow: hidden;
+		</style>
+	</head>
+	<body>
+		<div id="headingimg">
+			<div class="toplogo">
+				<img src="static/images/Logo.png" alt="Logo">
+			</div>
+
+			<table id="nav", width="100%">
+				<tr>
+					<td align="center"> <a href={{url_for('index')}}>Home</a> </td>
+					<td align="center"> <a href={{url_for('cuisine')}}>Cuisine</a> </td>
+					<td align="center"> <a href={{url_for('recipe')}}>Recipe</a> </td>
+					<td align="center"> <a href={{url_for('ingredients')}}>Ingredients</a> </td>
+					<td align="center"> <a href={{url_for('about')}}>About</a> </td>
+				</tr>
+			</table>
+		</div>
+		<div id="top">
+			<h1>
+				<span>Bay Leaves</span>
+			</h1>
+			
+			<p id="description">
+				Bay leaves refer to the aromatic leaves of several plants used in cooking. Bay leaves were used for flavoring by the ancient Greeks. They are a fixture in the cooking of many European cuisines (particularly those of the Mediterranean), as well as in the Americas. They are used in soups, stews, meat, seafood, vegetable dishes, and sauces. The leaves also flavor many classic French dishes. The leaves are most often used whole (sometimes in a bouquet garni) and removed before serving (they can be abrasive in the digestive tract). Thai cuisine employs bay leaf (Thai name bai kra wan) in a few Arab-influenced dishes, notably massaman curry. Bay leaves can also be crushed or ground before cooking. Crushed bay leaves impart more fragrance than whole leaves, but are more difficult to remove, and thus they are often used in a muslin bag or tea infuser. Ground bay laurel may be substituted for whole leaves, and does not need to be removed, but it is much stronger.
+			</p>
+			<table id="pic">
+				<tr>
+					<td> <img src="http://www.meghantelpner.com/wp-content/uploads/2011/02/Health-benefits-of-bay-leaves.jpg" height="300px" width="450px"></td>
+				</tr>
+			</table>
+		</div>
+		<table id="attributes", width="100%", align="center", cellspacing="80">
+			<tr>
+				<td align="center", width="33%">
+					<p id="title"><a href={{url_for('cuisine')}}>Cuisine</a></p>
+					<p><a href={{url_for('cuisine_filipino')}}>Filipino</a> </p>	
+					<img src="static/images/cuisine.png" height="150px" width="150px">
+				</td>
+				<td align="center", width="33%">
+					<p id="title"><a href={{url_for('recipe')}}>Recipes</p>
+					<p><a href={{url_for('recipe_gca')}}>Grilled Chicken Adobo</a> </p>	
+					<img src="static/images/recipe.png" height="150px" width="150px">
+				</td>
+				<td align="center", width="33%">
+					<p id="title">Additional Information	</p>
+					<p id="hh"><strong>Cuisine</strong></p>
+					<p>Filipino</p>
+					<p id="hh"><strong>Dishes</strong></p>
+					<p>Grilled Chicken Adobo</p>
+					<p id="hh"><strong>Price</strong></p>
+					<p>$3.44/0.12 oz</p>
+					<p id="hh"><strong>Calories</strong></p>
+					<p>6 cal/tsp</p>
+					<p id="info"><a href="https://en.wikipedia.org/wiki/Bay Leaves"><strong>Click here for more information!</strong></a></p>
+				</td>
+					
+					
+			</tr>
+		</table>		
+		<p>
+		<a href=http://nutritiondata.self.com/facts/spices-and-herbs/174/2>
+		Source: nutritiondata
+		</a>
+		</p>		
+	</body>
+</html>

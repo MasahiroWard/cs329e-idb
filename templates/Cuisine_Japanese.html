@@ -1,0 +1,102 @@
+<!-- The Japanese Page-->
+<html>
+	<head>
+		<title>Japanese</title>
+		
+		<link rel="shortcut icon" href="static/images/Logo.jpg">
+		<link rel="stylesheet" type="text/css" href="static/css/navigationbarstyle.css">
+		<link rel="stylesheet" type="text/css" href="static/css/attributestyle.css">
+		<style type="text/css">
+			body {
+				background: url(/static/images/backgroundimg.jpg);
+				background-size: cover;
+			}
+
+			#headingimg {
+				background:url(/static/images/Strawberries.jpg) no-repeat;
+				background-size: 100% 100%;
+				padding-bottom: 10px;
+				padding-top: 10px;
+				overflow: hidden;
+		</style>
+	</head>
+	<body>
+		<div id="headingimg">
+			<div class="toplogo">
+				<img src="static/images/Logo.png" alt="Logo">
+			</div>
+
+			<table id="nav", width="100%">
+				<tr>
+					<td align="center"> <a href={{url_for('index')}}>Home</a> </td>
+					<td align="center"> <a href={{url_for('cuisine')}}>Cuisine</a> </td>
+					<td align="center"> <a href={{url_for('recipe')}}>Recipe</a> </td>
+					<td align="center"> <a href={{url_for('ingredients')}}>Ingredients</a> </td>
+					<td align="center"> <a href={{url_for('about')}}>About</a> </td>
+				</tr>
+			</table>
+		</div>
+		<div id="top">
+			<h1>
+				<span>Japanese Cuisine</span>
+			</h1>
+			
+			<p id="description">
+			Japanese cuisine focuses on bringing out the most savory flavors from the 
+			various ingredients.  With a focus on harmonizing the various ingredients 
+			of the seasons, Japanese cooking reminds one of a quiet life on a small 
+			farm or a fishing village.  A traditional meal consists of rice with miso
+			soup, some pickled vegetables, and another side dish (Okazu).  The Okazu
+			is usually some form of seafood, and can be grilled or raw.  Other specialities
+			include tempura, vegetables or seafood deepfried in a light batter.  Japanese
+			cuisine is extremely adept at adopting foreign cuisines, and has many foods that
+			originated in China and other parts of Asia.  With modernization, Japan has
+			adopted many western foods such as hamburgers and steaks, but still maintain
+			their distinct flavors.
+			</p>
+			<table id="pic">
+				<tr>
+					<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tempura%2C_sashimi%2C_pickles%2C_ris_og_misosuppe_(6289116752).jpg/270px-Tempura%2C_sashimi%2C_pickles%2C_ris_og_misosuppe_(6289116752).jpg" height="150px" width="250px"></td>
+					<td> <img src="https://foodjunkysxm.files.wordpress.com/2016/02/japanese-food.jpg" height="150px" width="250px"></td>
+				</tr>
+					<td> <img src="http://muza-chan.net/aj/poze-weblog4/dango.jpg" height="150px" width="250px"></td>
+					<td> <img src="https://www.healthable.org/wp-content/uploads/2015/02/Japanese-Food.jpg" height="150px" width="250px"></td>
+				<tr>
+					
+				</tr>
+			</table>
+		</div>
+		<table id="attributes", width="100%", align="center", cellspacing="80">
+			<tr>
+				<td align="center", width="33%">
+					<p id="title"><a href={{url_for('recipe')}}>Recipes</a></p>
+					<p><a href={{url_for('recipe_s')}}>Sushi</a> </p>
+					<img src="static/images/recipe.png" height="150px" width="150px">
+				</td>
+				<td align="center", width="33%">
+					<p id="title"><a href={{url_for('ingredients')}}>Ingredients</a></p>
+					<p><a href={{url_for('ingredients_wr')}}>White Rice</a> </p>	
+					<img src="static/images/ingredients.png" height="150px" width="150px">
+				</td>
+				<td align="center", width="33%">
+					<p id="title">Additional Information</p>
+					<p id="hh"><strong>Common Ingredients</strong></p>
+					<p>White Rice, Soy Sauce, Miso, Bonito Flakes, Seaweed, Mirin</p>
+					<p id="hh"><strong>Techniques</strong></p>
+					<p>Stir-fry, Steam, Pickling, Deep-fried</p>
+					<p id="hh"><strong>Dishes</strong></p>
+					<p>Miso Soup, Sushi, Sukiyaki, Tempura</p>
+					<p id="hh"><strong>Climate</strong></p>
+					<p>Temperate</p>
+					<p id="info"><a href="https://en.wikipedia.org/wiki/Japanese_cuisine"><strong>Click here for more information!</strong></a></p>
+				</td>
+					
+			</tr>
+		</table>		
+		<p>
+		<a href=http://www.savoryjapan.com/learn/techniques/techniques.html>
+		Source: savoryjapan
+		</a>
+		</p>				
+	</body>
+</html>

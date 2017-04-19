@@ -1,0 +1,114 @@
+<!-- The Course Page-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipe</title>
+
+	<link rel="shortcut icon" href="static/images/Logo.jpg">
+	<link rel="stylesheet" type="text/css" href="static/css/modelstyle.css">
+	<link rel="stylesheet" type="text/css" href="static/css/navigationbarstyle.css">
+	<style type="text/css">
+			body {
+				background: url(/static/images/backgroundimg.jpg);
+				background-size: cover;
+			}
+
+			#headingimg {
+				background:url(/static/images/Strawberries.jpg) no-repeat;
+				background-size: 100% 100%;
+				padding-bottom: 10px;
+				padding-top: 10px;
+				overflow: hidden;
+	</style>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+	<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script>$(document).ready(function() {$('#model').DataTable({"bFilter": false, "bLengthChange": false, "pageLength" : 3});} );</script>
+	<style>.dataTables_wrapper { font-size: 20px }</style>
+
+</head>
+	<body>
+		<div id="headingimg">
+			<div class="toplogo">
+				<img src="static/images/Logo.png" alt="Logo">
+			</div>
+
+			<table id="nav", width="100%">
+				<tr>
+					<td align="center"> <a href={{url_for('index')}}>Home</a> </td>
+					<td align="center"> <a href={{url_for('cuisine')}}>Cuisine</a> </td>
+					<td align="center"> <a href={{url_for('recipe')}}>Recipe</a> </td>
+					<td align="center"> <a href={{url_for('ingredients')}}>Ingredients</a> </td>
+					<td align="center"> <a href={{url_for('about')}}>About</a> </td>
+				</tr>
+			</table>
+		</div>
+
+	</body>
+
+	<table id="model", class= "table table-bordered", data-toggle="table", border="2", align="center">
+		<thead>
+		<tr>
+			<th> Recipe </th>
+			<th> Time </th>
+			<th> Cuisine </th>
+			<th> Ingredients </th>
+			<th> Calories </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td align="center"> <a href={{url_for('recipe_s')}}>Sushi</a> </td>
+			<td align="center"> 45 min </td>
+			<td align="center"> <a href={{url_for('cuisine_jap')}}>Japanese</a> </td>
+			<td align="center"> White Rice, Rice Vinegar, Sugar, Salt, Seaweed, Cucumbers, Avocado </td>
+			<td align="center"> 152 Calories/8 servings </td>
+		</tr>
+		<tr>
+			<td align="center"> <a href={{url_for('recipe_ic')}}>Indian Curry</a> </td>
+			<td align="center"> 1 hour </td>
+			<td align="center"> <a href={{url_for('cuisine_ind')}}>Indian</a> </td>
+			<td align="center"> Chicken, Onion, Garlic, Curry Powder, Cumin, Turmeric, Tomatoes, Yogurt, Masala </td>
+			<td align="center"> ~300 Calories/250g </td>
+		</tr>
+		<tr>
+			<td align="center"> <a href={{url_for('recipe_lbs')}}>Lemon Butter Scallops</a> </td>
+			<td align="center"> 15 min </td>
+			<td align="center"> <a href={{url_for('cuisine_french')}}>French</a> </td>
+			<td align="center"> Butter, Lemon, Scallops, Garlic, Parsley, Pepper, Wine, Olive Oil </td>
+			<td align="center"> 190 cal/serving </td>
+		</tr>
+		<tr>
+			<td align="center"> <a href={{url_for('recipe_cps')}}> Chinese Pepper Steak</a></td>
+			<td align="center">  30 min</td>
+			<td align="center"> <a href={{url_for('cuisine_chi')}}> Chinese</a> </td>
+			<td align="center">  Sirloin Steak, Soy Sauce, Sugar, Cornstarch, Ginger, Vegetable Oil, Red Onion, Green Bell Pepper, Tomatoes</td>
+			<td align="center">  312 Calories</td>
+		</tr>
+		<tr>
+			<td align="center"> <a href={{url_for('recipe_gca')}}> Grilled Chicken Adobo</a></td>
+			<td align="center">  50 min</td>
+			<td align="center"> <a href={{url_for('cuisine_filipino')}}> Filipino</a></td>
+			<td align="center">  Soy Sauce, Water, Vinegar, Garlic, Bay Leaves, Black Pepper, Chicken</td>
+			<td align="center">  255 Calories</td>
+		</tr>
+		<tr>
+			<td align="center"> <a href={{url_for('recipe_m')}}> Moussaka</a></td>
+			<td align="center">  1 hour 45 min</td>
+			<td align="center"> <a href={{url_for('cuisine_greek')}}> Greek </a></td>
+			<td align="center">  Eggplant, Salt, Olive Oil, Ground Beef, Black Pepper, Onion, Garlic, Ground Cinnamon, Ground Nutmeg, Fine Herbs, Dried Parsley, Tomato Sauce, Red Wine, Egg, Milk, Butter, Flour, White Pepper, Parmesan</td>
+			<td align="center">  567 Calories</td>
+		</tr>
+		</tbody>
+	</table>
+</html>
