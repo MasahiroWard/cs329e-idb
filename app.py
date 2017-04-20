@@ -107,4 +107,4 @@ def ingredients_w():
 
 	
 if __name__ == '__main__':
-	app.run('107.170.30.222','80') # Run application
+	app.run() # Run application
